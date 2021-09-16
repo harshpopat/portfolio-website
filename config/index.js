@@ -1,10 +1,10 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  siteTitle: "Harsh's Portfolio",
+  siteShortTitle: "Harsh Popat", // Used as logo text in header, footer, and splash screen
   siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+    "Harsh Popat's Portfolio",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
@@ -58,24 +58,24 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
-    },
-    {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      url: "https://www.linkedin.com/in/harshpopat",
     },
     {
       name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      url: "https://github.com/harshpopat",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Twitter",
+      url:
+        "https://twitter.com/harshpopat99",
     },
     // {
+    //   name: "Behance",
+    //   url: "https://www.behance.net/konstanmnster",
+    // },
+    // {
     //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
+    //   url: "harshpopat75@gmail.com",
     // },
   ],
 
@@ -87,7 +87,7 @@ module.exports = {
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projects",
         url: "/#projects",
       },
       {
@@ -98,7 +98,7 @@ module.exports = {
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "Resume_Harsh Popat.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
